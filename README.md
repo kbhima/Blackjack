@@ -17,9 +17,9 @@ Steps to compile and run on Mac OS X
 2. Copy source code to preferred location on your computer (/Documents/Program/Blackjack)
 3. Launch terminal and go to the program location (/Documents/Program/Blackjack)
 3. Compile using below command (with -std=c++11 option as shown)
-   g++ -std=c++11 -o blackjack Blackjack.cpp Dealer.cpp Player.cpp Shuffler.cpp Card.cpp
-4. Run using below command
-   ./blackjack
+   `g++ -std=c++11 -o blackjack Blackjack.cpp Dealer.cpp Player.cpp Shuffler.cpp Card.cpp`
+4. Run the generated executable (blackjack) using below command
+   `./blackjack`
 
 Implemention summary
 --------------------
