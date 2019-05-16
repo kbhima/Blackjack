@@ -107,3 +107,9 @@ Player stats: rounds[2]:won[1]:lost[1]
 Starting a new round. Press Y to play, press N to exit
 
 ```
+
+References
+----------
+1. https://en.wikipedia.org/wiki/Blackjack
+2. http://www.readybetgo.com/blackjack/strategy/soft-17-rule-2496.html
+3. https://en.cppreference.com/w/c/numeric/random/srand
