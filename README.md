@@ -39,24 +39,16 @@ Reading from terminal
 1. Player is presented with play/exit option after each round
    "Starting a new round. Press Y to play, press N to exit"
 2. Each card is printed as [Suit, Value]. Value can be a number/facecard/ace
-3. Initial distribution: Player has two cards drawn and dealer top card is shown
-   "
-   Player hand
-   [heart:10]
-   [club:7]
-   Dealer top card
-   [club:J]
-   "
-   ***Player can hit blackjack - Player wins!! ***
+3. Initial distribution: Player has two cards drawn and dealer top card is shown.
+   a. Player can hit blackjack - Player wins!!
 3. Player turn: Player is asked if he wants to continue to draw. For every draw complete player hand is printed
-   "Continue to draw.. Press H to hit, press S to stand"
-   ***Player can get 21 points - Player wins!!***
-   ***Player can get get busted - Player loses!!***
+   a. Player can get 21 points - Player wins!!
+   b. Player can get get busted - Player loses!!
 4. Dealer turn: Once player is finished, dealer draws. For every draw complete dealer house is printed
-   ***Dealer can get busted - Player wins!! ***
-   ***Player count > dealer count - Player wins!!***
-   ***Player count < dealer count - Player loses!!***
-   ***Player count == dealer count - Round drawn!!***
+   a. Dealer can get busted - Player wins!!
+   b. Player count > dealer count - Player wins!!
+   c. Player count < dealer count - Player loses!!
+   d. Player count == dealer count - Round drawn!!
 5. Round result and player stats are printed after the round
 
 Example
