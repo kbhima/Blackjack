@@ -26,10 +26,10 @@ Implemention summary
 The classes and data structures are designed and implemented to support multiple players - single dealer use case. But currently console support is given only for single player - single dealer use case.
 
 1. Dealer: Maintains player queue and shuffler. Inits deck and gives it to shuffler. Talks to the console and proceeds with the game. Calls distribute, dealPlayers, dealSelf, compareForWin in sequence for each round
-2. Player: Responsible for maintaining a player info like player ID, player hand (list of cards for a round), player state (active/passive to indicate if he is playing), number of wins/losses/rounds
-3. Shuffler: Responsible for shuffling and maintaining the card deck from which cards are drawn. Shuffler is refreshed with fresh deck after every 6 rounds. In event where cards are exhausted before 6 rounds (which is unlikely in a single player scenario), the discarded cards from earlier rounds are given to the shuffler
-4. Card: Maintains info about the card like suit (Club, diamond, heart, spade) and type (J/Q/K/A/PIP) and value
-5. Blackjack: Entry class that instantiates Dealer and starts play
+2. Player: Responsible for maintaining player info such as ID, hand (list of cards for a round), state (active/passive to indicate if he is playing), number of wins/losses/rounds
+3. Shuffler: Responsible for shuffling and maintaining card deck from which cards are drawn. Shuffler is refreshed with a fresh deck after every 6 rounds. In event where cards are exhausted before 6 rounds (which is unlikely in a single player scenario), the discarded cards from earlier rounds are given to the shuffler
+4. Card: Maintains card info such as card suit (Club, diamond, heart, spade) and type (J/Q/K/A/PIP) and value
+5. Blackjack: Entry class that instantiates the Dealer and starts play
 
 Player win conditions
 ---------------------
