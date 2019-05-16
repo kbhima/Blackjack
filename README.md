@@ -43,3 +43,56 @@ Reading from terminal
 3. Player turn: Player is asked if he wants to continue to draw. For every draw complete player hand is printed. Player can get 21 points(PLAYER WINS). Player can get busted(PLAYER LOSES)
 4. Dealer turn: Once player is finished, dealer draws. For every draw complete dealer house is printed. Dealer can get busted(PLAYER WINS). Player count > dealer count(PLAYER WINS). Player count < dealer count (PLAYER LOSES). Player count == dealer count(ROUND DRAWN)
 5. Round result and player stats are printed after the round
+
+Example
+-------
+```
+Example
+-------
+BLACKJACK
+********************************************************
+Starting a new round. Press Y to play, press N to exit
+Y
+Player hand
+[heart:10]
+[club:7]
+Dealer top card
+[club:J]
+Continue to draw.. Press H to hit, press S to stand
+S
+Dealer house
+[diamond:10]
+[club:J]
+Player lost!! 
+Player stats: rounds[1]:won[0]:lost[1]
+********************************************************
+Starting a new round. Press Y to play, press N to exit
+Y
+Player hand
+[club:8]
+[diamond:Q]
+Dealer top card
+[club:3]
+Continue to draw.. Press H to hit, press S to stand
+S
+Dealer house
+[heart:2]
+[club:3]
+Dealer house
+[heart:2]
+[club:3]
+[spade:9]
+Dealer house
+[heart:2]
+[club:3]
+[spade:9]
+[heart:J]
+Dealer busted!!
+Player wins!! 
+Player stats: rounds[2]:won[1]:lost[1]
+********************************************************
+Starting a new round. Press Y to play, press N to exit
+
+```
+
+
